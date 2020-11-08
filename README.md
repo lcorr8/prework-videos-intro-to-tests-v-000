@@ -179,7 +179,7 @@ end
 + In our case, the tests are already written for us, but by solving them one at a time we can follow a bit of the same pattern.
 + So, the first thing I want to do is run `learn` - the `learn` gem that we use actually is just a wrapper for rspec. So it just runs out test suite and then tells learn to make sure our lights turn the right color.
 + We can also run this with an option called `fail-fast` - this means that if we fail one test, our test suite will stop and we'll just see one failure at a time.
-+ So let's run that for this lab: `learn --fail-fail`
++ So let's run that for this lab: `learn --fail-fast`
 + And we see our first test is failing. Let's go ahead and take a look in the spec file:
 ```ruby
 require 'spec_helper'
